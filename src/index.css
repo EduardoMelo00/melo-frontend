@@ -1,0 +1,23 @@
+/* Exemplo de variáveis de cor baseadas no logo */
+:root {
+  --color-primary: #006e3f;   /* Verde escuro */
+  --color-secondary: #333333; /* Cinza escuro */
+  --color-bg: #ffffff;        /* Branco */
+  --color-text: #212121;      /* Texto */
+  --color-gray-light: #f2f2f2;
+  --color-gray-medium: #cccccc;
+}
+
+/* Reset simples + fonte */
+html, body, #root {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: 'Roboto', sans-serif;
+  background-color: var(--color-bg);
+  color: var(--color-text);
+}
+
+button {
+  font-family: inherit;
+}

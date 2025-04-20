@@ -1,0 +1,100 @@
+/* src/pages/Engenheiros.css */
+.engenheiros-container {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .engenheiros-container h2 {
+    margin-bottom: 15px;
+    color: #006e3f; /* Verde principal */
+  }
+  
+  .msg-error {
+    color: red;
+  }
+  
+  .msg-success {
+    color: green;
+    margin-bottom: 10px;
+  }
+  
+  .btn-primary,
+  .btn-secondary,
+  .btn-danger {
+    padding: 6px 12px;
+    border: none;
+    border-radius: 4px;
+    margin-right: 5px;
+    cursor: pointer;
+  }
+  
+  .btn-primary {
+    background-color: #006e3f;
+    color: #fff;
+  }
+  
+  .btn-secondary {
+    background-color: #555;
+    color: #fff;
+  }
+  
+  .btn-danger {
+    background-color: #c0392b;
+    color: #fff;
+  }
+  
+  .engenheiros-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .engenheiros-table th,
+  .engenheiros-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .engenheiros-table th {
+    background-color: #f3f3f3;
+  }
+  
+  .engenheiro-form {
+    margin-top: 20px;
+    background: #f7f7f7;
+    padding: 15px;
+    border-radius: 6px;
+  }
+  
+  .engenheiro-form h3 {
+    margin: 0 0 10px 0;
+  }
+  
+  .engenheiro-form .form-group {
+    margin-bottom: 12px;
+  }
+  
+  .engenheiro-form label {
+    display: block;
+    font-weight: 500;
+    margin-bottom: 5px;
+  }
+  
+  .engenheiro-form input,
+  .engenheiro-form select {
+    width: 100%;
+    padding: 6px;
+    box-sizing: border-box;
+  }
+  
+  .engenheiro-form select[multiple] {
+    height: 100px;
+  }
+  
+  .form-buttons {
+    margin-top: 10px;
+  }
+  

@@ -1,0 +1,96 @@
+/* src/pages/Solicitacoes.css */
+.solicitacoes-container {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .solicitacoes-container h2 {
+    margin-bottom: 15px;
+    color: #006e3f;
+  }
+  
+  .msg-error {
+    color: red;
+  }
+  
+  .msg-success {
+    color: green;
+    margin-bottom: 10px;
+  }
+  
+  .btn-primary,
+  .btn-secondary,
+  .btn-danger {
+    padding: 6px 12px;
+    border: none;
+    border-radius: 4px;
+    margin-right: 5px;
+    cursor: pointer;
+  }
+  
+  .btn-primary {
+    background-color: #006e3f;
+    color: #fff;
+  }
+  
+  .btn-secondary {
+    background-color: #555;
+    color: #fff;
+  }
+  
+  .btn-danger {
+    background-color: #c0392b;
+    color: #fff;
+  }
+  
+  .solicitacoes-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .solicitacoes-table th,
+  .solicitacoes-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .solicitacoes-table th {
+    background-color: #f3f3f3;
+  }
+  
+  .solicitacao-form {
+    margin-top: 20px;
+    background: #f7f7f7;
+    padding: 15px;
+    border-radius: 6px;
+  }
+  
+  .solicitacao-form h3 {
+    margin: 0 0 10px 0;
+  }
+  
+  .solicitacao-form .form-group {
+    margin-bottom: 12px;
+  }
+  
+  .solicitacao-form label {
+    display: block;
+    font-weight: 500;
+    margin-bottom: 5px;
+  }
+  
+  .solicitacao-form input,
+  .solicitacao-form select {
+    width: 100%;
+    padding: 6px;
+    box-sizing: border-box;
+  }
+  
+  .form-buttons {
+    margin-top: 10px;
+  }
+  

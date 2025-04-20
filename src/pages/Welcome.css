@@ -1,0 +1,33 @@
+.welcome-container {
+    max-width: 600px;
+    margin: 40px auto;
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  }
+  
+  .welcome-container h1 {
+    color: var(--color-secondary);
+    margin-bottom: 20px;
+  }
+  
+  .welcome-container p {
+    margin-bottom: 20px;
+    font-size: 18px;
+  }
+
+
+  .welcome-page {
+    background: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  }
+  .welcome-page h1 {
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  
