@@ -3,7 +3,7 @@ import axios from 'axios';
 
 // Crie a instância do axios
 const api = axios.create({
-  baseURL: 'http://localhost:4000', // ou a URL do seu servidor Node
+  baseURL: 'https://melo-backend-ba55b74f4b87.herokuapp.com/', // ou a URL do seu servidor Node
 });
 
 // Interceptor para incluir token (se existir)
